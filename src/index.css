@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .genericBtn {
+    @apply text-stone-600 w-full bg-gray-300 hover:bg-gradient-to-t from-gray-200 to-gray-300 px-4 py-2 rounded-lg;
+  }
+}
