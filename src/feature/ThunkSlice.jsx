@@ -1,5 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+/*
+  Redux store doesn't know anything about async logic.
+  It only knows how to synchronously dispatch actions,
+  update the state by calling the root reducer function,
+  and notify the UI that something has changed.
+  
+  *Any asynchronicity has to happen outside the store.
+*/
 const initialState = {
   loading: true,
   status: "unknown",

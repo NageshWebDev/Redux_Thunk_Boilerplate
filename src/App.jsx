@@ -1,6 +1,7 @@
 import CounterA from "./component/CounterA";
 import CounterB from "./component/CounterB";
 import ChildThunk from "./component/ChildThunk";
+import ChildThunkB from "./component/ChildThunkB";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       </div>
       <div className="w-72">
         <ChildThunk />
+        <ChildThunkB />
       </div>
     </section>
   );
